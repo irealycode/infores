@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FastFix Computer Repair</title>
+  <title>EcoTech Computer Parts</title>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
   <style>
     body {
@@ -117,82 +117,144 @@
     .service:hover{
         box-shadow: 0 0 10px #007bff09;
     }
+    .intro img {
+      max-width: 100%;
+      height: auto;
+      margin: 1rem 0;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      width:80vw;
+      height:40vw;
+      object-fit: cover;
+    }
+    .intro {
+      text-align: center;
+    }
+    .intro h2 {
+      color: #4CAF50;
+      font-size: 2rem;
+    }
+    .intro p {
+      font-size: 1rem;
+      margin: 10px 0;
+    }
+    .features {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .feature {
+      background: #f9f9f9;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      width: 300px;
+      text-align: center;
+    }
+    .feature img {
+      width: 80%;
+      height:120px;
+      margin-bottom: 1rem;
+      object-fit: cover;
+      border-radius:5px;
+    }
+    .feature h3 {
+      font-size: 1.5rem;
+      margin: 10px 0;
+    }
+    .feature p {
+      font-size: 1rem;
+      margin: 10px 0;
+    }
+    .call-to-action {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .call-to-action a {
+      display: inline-block;
+      background: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-size: 1.2rem;
+      border-radius: 5px;
+    }
+    .call-to-action a:hover {
+      background: #45a049;
+    }
+    .environment {
+      padding: 40px;
+      background-color: #f0f9f0;
+      margin-top: 40px;
+      text-align: center;
+    }
+    .environment h2 {
+      color: #4CAF50;
+      font-size: 2rem;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
   </style>
 </head>
 <body>
 
 <header>
-    <h1 class="logo">FX</h1>
-  <h1>FastFix Computer Repair</h1>
-  <p>Your trusted partner for reliable tech solutions.</p>
+    <h1 class="logo"><span style="color: #4CAF50;" >E</span>.T</h1>
+  <h1>EcoTech Exchange</h1>
+  <p>A Student Marketplace for Sustainable Tech</p>
 </header>
 
-<section class="hero">
-  <h2>Get Your Computer Fixed Today!</h2>
-  <p>Fast, affordable, and professional computer repair services.</p>
-  <img src="https://images.unsplash.com/photo-1580207762145-0ef778b47468?fm=jpg&amp;q=60&amp;w=3000&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Repairing a laptop">
-  <button>Contact Us Now</button>
-</section>
-<section style="padding: 40px; background-color: #007bff09; text-align: center;">
-    <h2 style="font-family: 'Rubik', sans-serif; color: #007BFF;">Our Commitment to the Environment</h2>
-    <p style="font-family: 'Rubik', sans-serif; color: #555; max-width: 800px; margin: 0 auto;">
-      At FastFix, we believe that technology and sustainability go hand in hand. We actively work to reduce our environmental footprint by adopting eco-friendly practices and supporting a circular economy.
-    </p>
-    <div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px; flex-wrap: wrap;">
-      <div style="flex: 1; min-width: 250px; text-align: left;">
-        <h3 style="font-family: 'Rubik', sans-serif; color: #007BFF;">Recycling E-Waste</h3>
-        <p style="font-family: 'Rubik', sans-serif; color: #555;">
-          We responsibly recycle electronic waste, ensuring harmful materials like lead and mercury are safely processed.
-        </p>
-      </div>
-      <div style="flex: 1; min-width: 250px; text-align: left;">
-        <h3 style="font-family: 'Rubik', sans-serif; color: #007BFF;">Refurbishing Parts</h3>
-        <p style="font-family: 'Rubik', sans-serif; color: #555;">
-          Whenever possible, we repair and refurbish components, reducing the need for new manufacturing and conserving resources.
-        </p>
-      </div>
-      <div style="flex: 1; min-width: 250px; text-align: left;">
-        <h3 style="font-family: 'Rubik', sans-serif; color: #007BFF;">Energy Efficiency</h3>
-        <p style="font-family: 'Rubik', sans-serif; color: #555;">
-          We use energy-efficient tools and methods to minimize power consumption during repairs.
-        </p>
-      </div>
-    </div>
-    <img 
-      src="https://images.unsplash.com/photo-1499571466915-ffc02b27d65e?fm=jpg&amp;q=60&amp;w=3000&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-      alt="Eco-friendly technology" 
-      style="width: 100%; max-width: 800px; margin-top: 30px; border-radius: 10px;"
-    >
-  </section>
-<section class="services">
-  <h2>Our Services</h2>
-  <div class="service-list">
-    <div class="service">
-      <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?fm=jpg&amp;q=60&amp;w=3000&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hardware Repair">
-      <h3>Hardware Repairs</h3>
-      <p>We fix laptops, desktops, and other devices with precision.</p>
-    </div>
-    <div class="service">
-      <img src="https://images.unsplash.com/flagged/photo-1560854350-13c0b47a3180?fm=jpg&amp;q=60&amp;w=3000&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Virus Removal">
-      <h3>Virus Removal</h3>
-      <p>Clean and protect your system from malware and threats.</p>
-    </div>
-    <div class="service">
-      <img src="https://images.unsplash.com/photo-1510511459019-5dda7724fd87?fm=jpg&amp;q=60&amp;w=3000&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Data Recovery">
-      <h3>Data Recovery</h3>
-      <p>Recover lost files, photos, and important documents.</p>
-    </div>
-    <div class="service">
-      <img src="https://plus.unsplash.com/premium_photo-1678565869434-c81195861939?fm=jpg&amp;q=60&amp;w=3000&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Software Setup">
-      <h3>Software Setup</h3>
-      <p>Install and configure software tailored to your needs.</p>
-    </div>
-  </div>
-</section>
+<section>
+    <div class="intro">
+      <h2>Buy, Sell, and Recycle Tech - Together</h2>
+      <p>EcoTech Exchange helps students buy, sell, or recycle tech, fostering a smarter, greener community.</p>
+      <img src="https://images.unsplash.com/photo-1580207762145-0ef778b47468?fm=jpg&amp;q=60&amp;w=3000&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Repairing a laptop">
 
-<footer>
-  <p>&copy; 2024 FastFix Computer Repair. All Rights Reserved.</p>
-</footer>
+    </div>
+</section>
+<section class="environment">
+    <h2>Our Commitment to the Environment</h2>
+    <p>Every device bought, sold, or recycled through EcoTech Exchange helps reduce electronic waste, lower carbon footprints, and promote a circular economy. Together, we’re making technology more sustainable.</p>
+    <img src="https://unsplash.com/photos/wxWulfjN-G0/download?force=true&w=800" alt="Environment-friendly technology" style="width: 80vw; height: 40vw; object-fit: cover; border-radius: 10px; margin-top: 20px;">
+  </section>
+<section>
+    <h1 style="width: 100%;text-align: center;margin: 15px 0px;" >Our Services</h1>
+    <div class="features">
+       
+      <div class="feature">
+        <img src="https://images.unsplash.com/photo-1565515636369-57f6e9f5fe79?fm=jpg&amp;q=60&amp;w=3000&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Buy Used Tech">
+        <h3>Buy Used Tech</h3>
+        <p>Discover budget-friendly laptops, phones, and gadgets tailored to student needs.</p>
+      </div>
+      <div class="feature">
+        <img src="https://images.unsplash.com/photo-1518107616985-bd48230d3b20?fm=jpg&amp;q=60&amp;w=3000&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Sell Your Devices">
+        <h3>Sell Your Devices</h3>
+        <p>List your old tech easily and find buyers in your community.</p>
+      </div>
+      <div class="feature">
+        <img src="https://plus.unsplash.com/premium_photo-1723921242867-42dbc213fbd1?fm=jpg&amp;q=60&amp;w=3000&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Recycle Responsibly">
+        <h3>Recycle Responsibly</h3>
+        <p>Support sustainability by recycling devices that can’t be used anymore.</p>
+      </div>
+    </div>
+    
+    <div class="call-to-action">
+      <a href="#get-started">Get Started</a>
+    </div>
+  </section>
+  
+  
+  
+  <footer>
+    <p>&copy; 2024 EcoTech Exchange. All Rights Reserved.</p>
+  </footer>
 
 </body>
 </html>
