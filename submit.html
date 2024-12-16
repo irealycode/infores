@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoTech Exchange - Submit Your Product</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <script src="script.js" ></script>
+  
+</head>
+<body>
+    <header>
+        <h1 class="logo" onclick="window.location='/'"><span style="color: #4CAF50;" >E</span>.T</h1>
+      <h1><span style="font-family: 'Times New Roman', Times, serif;" >EMSI</span> Exchange</h1>
+    </header>
+  
+  <section>
+    <div class="shareT">
+        <h2 >Share Your Tech & Help the Planet</h2>
+    </div>
+    <div class="submit" id="submit">
+      <label for="product-name">Product Name</label>
+      <input type="text" id="product-name" name="product-name" placeholder="e.g., Dell Laptop, iPhone X" required>
+
+      <label for="description">Description</label>
+      <textarea id="description" name="description" rows="4" placeholder="Briefly describe the product (e.g., specs, condition)" required></textarea>
+
+      <label for="category">Category</label>
+      <select id="category" name="category" required>
+        <option value="" disabled selected>Select a category</option>
+        <option value="laptop">Laptop</option>
+        <option value="smartphone">Smartphone</option>
+        <option value="monitor">Monitor</option>
+        <option value="accessories">Accessories</option>
+        <option value="tablet">Tablet</option>
+        <option value="gaming-console">Gaming Console</option>
+        <option value="printer">Printer</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="price">Price (DH)</label>
+      <input type="number" id="price" name="price" placeholder="e.g., 350" min="1" step="0.01" required>
+
+      <label for="condition">Condition</label>
+      <select id="condition" name="condition" required>
+        <option value="" disabled selected>Select condition</option>
+        <option value="new">New</option>
+        <option value="like-new">Like New</option>
+        <option value="good">Good</option>
+        <option value="acceptable">Acceptable</option>
+      </select>
+
+      <label for="product-image">Upload Product Image</label>
+      <input type="file" id="product-image" name="product-image" accept="image/*" required>
+
+      <label for="contact-email">Your Email</label>
+      <input type="email" id="contact-email" name="contact-email" placeholder="e.g., yourname@example.com" required>
+
+      <label for="contact-phone">Your Phone (Optional)</label>
+      <input type="tel" id="contact-phone" name="contact-phone" placeholder="e.g., +212 123456789">
+
+      <button class="submit-btn" onclick="resetForm1()" >Submit Product</button>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2024 Emsi Exchange. All Rights Reserved.</p>
+    <img src="https://alpharepgroup.com/emsi/images/ajax-document-loader.png" class="emsi-img" />
+  </footer>
+</body>
+</html>
