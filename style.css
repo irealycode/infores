@@ -356,7 +356,7 @@ background-color: #45a049;
 }
 
 .popup{
-    position: absolute;
+    position: fixed;
     top: 50px;
     opacity: 0;
     left: 50%;
